@@ -22,12 +22,18 @@
   ],
   "require": {
     "php": ">=5.5.9",
-    "mnapoli/silly": "^1.7",
+    "mnapoli/silly": "dev-master",
     "illuminate/view": ">=8.0",
     "mnapoli/front-yaml": "^1.5",
     "windwalker/renderer": "3.*"
   },
   "require-dev": {
     "phpunit/phpunit": "^4.8"
-  }
+  },
+  "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/Rowmain/silly"
+        }
+    ],
 }
